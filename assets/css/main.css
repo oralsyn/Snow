@@ -76,10 +76,78 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__p{
 	width: 640px;
+	text-align: justify;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color: #5f5f5f;
+	line-height: 1.6;
 }
 
 .intro__client{
 	display: flex;
 	flex-direction: column;
   	justify-content: center;
+  	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+.intro__client span{
+	font-weight: 500;
+}
+
+/* ========= Videohere ========= */
+.videohere{
+	width: 100%;
+	
+	background: #eeeeee;
+}
+.videohere__inner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 570px;
+
+}
+
+.playicon{
+	color: #000;
+	font-size: 20px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px -1px 91px 15px rgba(0,0,0,0.13);
+	cursor: pointer;
+}
+/* ========= Prev Next ========= */
+.prevnext{
+	
+	background: #fff;
+}
+.prevnext__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+.prevnext__text{
+	text-transform: uppercase;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.prevnext__prev i {
+	margin-right: 10px;
+	font-size: 10px;
+	color: #888888;
+}
+
+.prevnext__next i{
+	margin-left: 10px;
+	font-size: 10px;
+	color: #888888;
 }
